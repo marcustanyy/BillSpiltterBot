@@ -6,12 +6,12 @@ app = Flask(__name__)
 api = Api(app)
 
 
-class Users(Resource):
+class One(Resource):
     # methods go here
     def get(self):
         print("Users")
     
-class Locations(Resource):
+class Two(Resource):
     # methods go here
     def get(self):
         print("Locations")
